@@ -1,10 +1,8 @@
 # Runtime environment for the scripts in ./scripts.
 #
-# Build:
-#   docker build -t roadmap-resilience-indicators .
-#
-# Run from the repository root, mounting the local project into the container:
-#   docker run --rm -it -v ${PWD}:/workdir roadmap-resilience-indicators
+# Build and run from the repository root on Windows, mounting the local project
+# into the container:
+#   docker build -t roadmap-resilience-indicators . && docker run --rm -it -v %CD%:/workdir roadmap-resilience-indicators
 #
 # This is a placeholder until the first wetland workflow defines exact package
 # and system-library requirements.
