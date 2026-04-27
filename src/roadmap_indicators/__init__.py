@@ -1,1 +1,1 @@
-"""Shared utilities for roadmap resilience indicator workflows."""
+"""Python codebase for roadmap resilience indicator workflows."""
