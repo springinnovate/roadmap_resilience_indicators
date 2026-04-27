@@ -1,13 +1,15 @@
-# Placeholder computational environment for roadmap resilience indicators.
+# Runtime environment for the scripts in ./scripts.
 #
-# The first working version should likely include a geospatial Python stack:
-# geopandas, rasterio, rioxarray, xarray, pyogrio, shapely, pyproj, pandas,
-# numpy, and a CLI helper such as typer or click.
+# Build:
+#   docker build -t roadmap-resilience-indicators .
 #
-# Keep this placeholder lightweight until the first wetland workflow defines
-# exact package and system-library requirements.
+# Run from the repository root, mounting the local project into the container:
+#   docker run --rm -it -v ${PWD}:/workdir roadmap-resilience-indicators
+#
+# This is a placeholder until the first wetland workflow defines exact package
+# and system-library requirements.
 FROM python:3.12-slim
 
-WORKDIR /workspace
+WORKDIR /workdir
 
 CMD ["python", "--version"]
