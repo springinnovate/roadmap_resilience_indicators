@@ -1,0 +1,14 @@
+# Example configuration for the future wetland flood-benefit workflow.
+
+project:
+  name: wetland_flood_benefits
+
+paths:
+  wetland_interventions: data/raw/wwf_wetland_interventions.gpkg
+  flood_risk: data/raw/flood_risk_layer.tif
+  population: data/raw/population_layer.tif
+  output_dir: outputs/wetlands
+
+parameters:
+  analysis_crs: EPSG:6933
+  benefit_area_method: direct_overlap
