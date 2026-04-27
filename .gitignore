@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local geospatial data and generated outputs
+data/raw/
+data/interim/
+data/processed/
+outputs/*
+!outputs/README.md
+
+# Common local files
+.env
+.DS_Store
+Thumbs.db
