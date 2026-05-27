@@ -61,7 +61,7 @@ This repository is expected to produce:
 ## Repository Layout
 
 - `docs/`: Indicator proposals, assumptions, and feasibility notes.
-- `data/`: Local data workspace; data are not committed.
+- `data/`: Local data workspace organized into analysis inputs, processing outputs, analysis results, and workflow assets.
 - `configs/`: Example analysis settings.
 - `scripts/`: Lightweight prototype scripts.
 - `outputs/`: Generated outputs from prototype analyses.

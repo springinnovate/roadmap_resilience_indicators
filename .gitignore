@@ -4,6 +4,24 @@ __pycache__/
 # Local geospatial data and generated outputs
 data/*
 !data/README.md
+!data/analysis_inputs/
+data/analysis_inputs/*
+!data/analysis_inputs/README.md
+!data/analysis_inputs/wwf_program_areas/
+data/analysis_inputs/wwf_program_areas/*
+!data/analysis_inputs/wwf_program_areas/README.md
+!data/analysis_inputs/zonal_units/
+data/analysis_inputs/zonal_units/*
+!data/analysis_inputs/zonal_units/README.md
+!data/processing_outputs/
+data/processing_outputs/*
+!data/processing_outputs/README.md
+!data/analysis_results/
+data/analysis_results/*
+!data/analysis_results/README.md
+!data/workflow_assets/
+data/workflow_assets/*
+!data/workflow_assets/README.md
 outputs/*
 !outputs/README.md
 
