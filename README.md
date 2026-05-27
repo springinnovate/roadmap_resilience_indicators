@@ -4,6 +4,8 @@ This repository is a workspace for WWF roadmap resilience indicator proposals, a
 
 ## Candidate Metric Areas
 
+The table is ordered roughly from the most immediate candidate metric area to the least developed based on current project notes.
+
 | Area | Possible Metric | Related Repo | Current Location / Notes |
 | --- | --- | --- | --- |
 | Wetland flood storage | Hectares of wetlands or floodplains associated with WWF interventions; people exposed to flood risk near or downstream of those areas; screening score for wetland flood-storage opportunity | [springinnovate/natural-ecosystem-flood-attenuation-simulator](https://github.com/springinnovate/natural-ecosystem-flood-attenuation-simulator) | Active prototype work is happening in the linked repository. |
