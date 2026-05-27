@@ -2,8 +2,9 @@
 __pycache__/
 
 # Local geospatial data and generated outputs
-data/*
-!data/README.md
+data/**
+!data/**/
+!data/**/README.md
 outputs/*
 !outputs/README.md
 
